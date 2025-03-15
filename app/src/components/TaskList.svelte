@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { fly } from 'svelte/transition';
 
 	let visible = $state(false);
@@ -6,24 +6,12 @@
 		visible = true;
 	}
 
-	let { priority } = $props();
-
-	let tasks = [
-		{ id: 1, title: 'Buy Milk' },
-		{ id: 2, title: 'Change drawing room settings' },
-		{ id: 3, title: 'Take the trash can out' },
-		{ id: 4, title: 'Finish the task' },
-		{ id: 5, title: 'Take the dog out' },
-		{ id: 6, title: 'Configure dev env' },
-		{ id: 7, title: 'Configure packages and dependencies' },
-		{ id: 8, title: 'Code' }
-	];
+	let { priority, tasks } = $props();
 </script>
 
 <div class="btn">
 	{#if priority === 'High'}
-		<button class="show" style="background-color: lightsalmon;" onclick={onClick}>{priority}</button
-		>
+		<button class="show" style="background-color: lightsalmon" onclick={onClick}>{priority}</button>
 	{:else if priority === 'Medium'}
 		<button class="show" style="background-color: burlywood;" onclick={onClick}>{priority}</button>
 	{:else}
@@ -98,5 +86,6 @@
 		border-radius: 10px;
 		padding: 2%;
 		margin: 0.25%;
+		overflow-wrap: anywhere;
 	}
 </style>

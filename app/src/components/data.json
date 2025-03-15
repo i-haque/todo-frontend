@@ -1,0 +1,54 @@
+{
+	"tasks": [
+		{
+			"id": 1,
+			"title": "Buy Milk",
+			"priority": 2
+		},
+		{
+			"id": 2,
+			"title": "Get Groceries",
+			"priority": 2
+		},
+		{
+			"id": 3,
+			"title": "Config dev env",
+			"priority": 1
+		},
+		{
+			"id": 4,
+			"title": "Config project dependencies",
+			"priority": 1
+		},
+		{
+			"id": 5,
+			"title": "Team meeting at 5pm",
+			"priority": 1
+		},
+		{
+			"id": 6,
+			"title": "Take the trash out",
+			"priority": 2
+		},
+		{
+			"id": 7,
+			"title": "Plant the new saplings",
+			"priority": 3
+		},
+		{
+			"id": 8,
+			"title": "Plan a movie night with friends",
+			"priority": 3
+		},
+		{
+			"id": 9,
+			"title": "Plan a trip",
+			"priority": 3
+		},
+		{
+			"id": 10,
+			"title": "Update device software in the upcoming weekend",
+			"priority": 2
+		}
+	]
+}
