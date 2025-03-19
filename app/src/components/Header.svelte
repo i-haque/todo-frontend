@@ -1,16 +1,14 @@
 <script lang="ts">
 </script>
 
-<div class="centered-header">
+<div class="heading">
 	<h1>Tasks</h1>
 </div>
 
 <style>
-	.centered-header {
+	.heading {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding-top: 25px;
-		text-align: center;
 	}
 </style>

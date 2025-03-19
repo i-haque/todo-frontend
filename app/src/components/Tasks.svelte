@@ -29,8 +29,7 @@
 	.container {
 		background-color: beige;
 		display: flex;
-		align-items: flex-start;
-		border-radius: 10px;
+		border-radius: 7px;
 		padding: 2%;
 	}
 
